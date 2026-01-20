@@ -1,0 +1,22 @@
+# GIN (Graph Isomorphism Network) model configuration
+
+# Model type
+type: gin
+
+# GNN backbone
+hidden_dim: 256
+num_layers: 3
+dropout: 0.2
+pooling: mean  # mean, max, or add
+batch_norm: true
+
+# GIN-specific
+use_edge_features: true  # Whether to use GINE with bond features
+train_eps: true  # Whether to learn epsilon parameter
+mlp_layers: 2  # Number of MLP layers in each GIN layer
+
+# Classification head
+head:
+  hidden_dim: 256
+  dropout: 0.2
+  num_layers: 1

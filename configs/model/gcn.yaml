@@ -1,0 +1,22 @@
+# GCN model configuration
+
+# Model type
+type: gcn
+
+# GNN backbone
+hidden_dim: 256
+num_layers: 3
+dropout: 0.2
+pooling: mean  # mean, max, or add
+batch_norm: true
+
+# GCN-specific
+improved: true
+add_self_loops: true
+normalize: true
+
+# Classification head
+head:
+  hidden_dim: 256
+  dropout: 0.2
+  num_layers: 1

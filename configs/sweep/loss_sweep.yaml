@@ -1,0 +1,11 @@
+# Hyperparameter sweep for loss function comparison
+# Run with: uv run python scripts/train.py --multirun --config-name=config +sweep=loss_sweep
+
+hydra:
+  sweeper:
+    params:
+      training.loss_type: bce, focal
+      training.focal_gamma: 1.0, 2.0, 3.0
+      training.use_class_weights: true, false
+
+experiment: loss_sweep

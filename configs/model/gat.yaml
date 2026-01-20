@@ -1,0 +1,24 @@
+# GAT model configuration
+
+# Model type
+type: gat
+
+# GNN backbone
+hidden_dim: 256
+num_layers: 3
+dropout: 0.2
+pooling: mean  # mean, max, or add
+batch_norm: true
+
+# GAT-specific
+num_heads: 4
+use_edge_features: true  # Whether to use bond features
+concat_heads: false  # false = average heads, true = concatenate
+negative_slope: 0.2
+add_self_loops: true
+
+# Classification head
+head:
+  hidden_dim: 256
+  dropout: 0.2
+  num_layers: 1

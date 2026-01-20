@@ -1,0 +1,21 @@
+# MPNN (Message Passing Neural Network) model configuration
+
+# Model type
+type: mpnn
+
+# GNN backbone
+hidden_dim: 256
+num_layers: 3
+dropout: 0.2
+pooling: set2set  # mean, max, add, or set2set (recommended)
+batch_norm: true
+
+# MPNN-specific (always uses edge features)
+edge_hidden_dim: 64  # Hidden dimension for edge network
+set2set_steps: 3  # Number of Set2Set iterations
+
+# Classification head
+head:
+  hidden_dim: 256
+  dropout: 0.2
+  num_layers: 1
