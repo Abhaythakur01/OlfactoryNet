@@ -377,9 +377,9 @@ If you use OlfactoryNet in your research, please cite:
 ```bibtex
 @software{olfactorynet2024,
   title = {OlfactoryNet: Molecular Odor Prediction with Graph Neural Networks},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/olfactorynet}
+  author = {Abhay Thakur},
+  year = {2026},
+  url = {https://github.com/Abhaythakur01/OlfactoryNet}
 }
 ```
 
