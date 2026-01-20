@@ -404,6 +404,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <strong>Built with PyTorch Geometric</strong>
   <br>
   <a href="https://pytorch-geometric.readthedocs.io/">Documentation</a> •
-  <a href="https://github.com/yourusername/olfactorynet/issues">Report Bug</a> •
-  <a href="https://github.com/yourusername/olfactorynet/issues">Request Feature</a>
+  <a href="https://github.com/Abhaythakur01/OlfactoryNet/issues">Report Bug</a> •
+  <a href="https://github.com/Abhaythakur01/OlfactoryNet/issues">Request Feature</a>
 </p>
