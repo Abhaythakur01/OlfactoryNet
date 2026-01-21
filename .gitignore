@@ -60,3 +60,6 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# extra files
+.claude/
